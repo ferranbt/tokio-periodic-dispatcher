@@ -1,14 +1,14 @@
 
 # Tokio-periodic-dispatcher
 
-A library to periodically dispatch actions.
+A library to periodically dispatch actions in rust.
 
 ```
 # Cargo.toml
 [dependencies]
 tokio = "0.1.3"
 tokio-timer = "0.1"
-tokio-periodic-dispatcher = {path="https://github.com/ferranbt/tokio-periodic-dispatcher"}
+tokio-periodic-dispatcher = {git="https://github.com/ferranbt/tokio-periodic-dispatcher"}
 ```
 
 ## Usage
